@@ -22,7 +22,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0px;
 }
 
 .logo img {
@@ -34,12 +33,10 @@ body {
     margin-right: 15px;
     text-decoration: none;
     font-size: 14px;
-    font-family: times new roman;
 }
 
 .header-icons a {
     font-size: 16px;
-   
 }
 
 /* Navbar Styles */
@@ -54,13 +51,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
 }
 
 .nav-list li {
-    margin-right: 10px;
+    margin-right: 20px;
     position: relative;
-   
 }
 
 .nav-list a {
@@ -68,7 +63,6 @@ body {
     color: black;
     font-size: 16px;
     font-weight: bold;
-    font-family: times new roman;
 }
 
 .nav-list .btn-apply {
@@ -79,61 +73,7 @@ body {
     font-weight: bold;
     text-align: center;
 }
-.hero {
-  position: relative;
-  height: 100vh;
-  background-image: url('https://www.monash.edu/__data/assets/image/0009/3817242/varieties/feature.box.jpg'); /* Replace with your image URL */
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 
-.hero::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-  padding: 20px;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-}
-
-.cta-button {
-  display: inline-block;
-  padding: 15px 30px;
-  font-size: 1.2rem;
-  color: #fff;
-  background-color: #007BFF; /* Blue */
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #0056b3; /* Darker blue */
-}
 /* Dropdown Styles */
 .dropdown-menu {
     display: none;
@@ -160,7 +100,13 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-    section {
+
+
+
+
+  
+   
+  section {
     position:center;
     padding: 20px;
     height: 100vh; /* For demonstration, each section takes full viewport height */
@@ -230,10 +176,10 @@ body {
 .footer-social a:hover {
     text-decoration: underline;
 }
-  /* section a{
+  section a{
     background-image: url("front page.JPG");
     size-adjust: auto;
-  } */
+  }
 
 
   section-e{
@@ -493,7 +439,7 @@ body {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: background 0.3s;
   }
   
   .highlight-text .cta-button:hover {
